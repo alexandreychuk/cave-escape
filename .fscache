@@ -1,0 +1,23 @@
+::res://::1427386884
+icon.png::ImageTexture::1426546246::
+::res://music::1427379284
+This Place Is So Lonely.ogg::AudioStreamOGGVorbis::1427379256::
+::res://scenes::1427386999
+Coin.gd::GDScript::1427386754::
+Coin.scn::PackedScene::1427386656::
+MenuState.scn::PackedScene::1427059997::
+level.scn::PackedScene::1427386753::
+playState.gd::GDScript::1427386999::
+playState.scn::PackedScene::1427379306::
+player.gd::GDScript::1427386999::
+player.scn::PackedScene::1427386886::
+::res://sounds::1426790987
+jump.smp::Sample::1426790987::
+::res://sprites::1427381156
+items.png::ImageTexture::1427381156::
+meter.png::ImageTexture::1427063411::
+player.png::ImageTexture::1426546762::
+tiles.png::ImageTexture::1426780438::
+::res://tiles::1427057661
+tm_cave.res::TileSet::1427057661::
+tm_cave.scn::PackedScene::1427057654::
