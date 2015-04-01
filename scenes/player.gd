@@ -13,7 +13,11 @@ var sprite;
 var sound;
 
 var health = 6;
+var lives = 3;
 var coins = 0;
+
+func _on_HUD_mouse_enter():
+	print("Mouse entered huehue")
 
 func _fixed_process(delta):
 	# Get player components
@@ -72,7 +76,8 @@ func _fixed_process(delta):
 		
 	if (get_pos().y > 720):
 		set_pos( Vector2( get_pos().x, 0) );
-		health -= 1;
+		lives -= 1;
+		emit_signal("lives_changed",lives)
 
 func _ready():
 	# Initialization here
@@ -80,6 +85,7 @@ func _ready():
 	# sprite = get_node("Sprite");
 	# sound = get_node("SamplePlayer2D");
 	set_fixed_process(true);
+	add_user_signal("lives_changed")
 	pass
 
 
